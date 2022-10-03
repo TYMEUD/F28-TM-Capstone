@@ -8,6 +8,11 @@ app.use(express.json())
 app.use(cors())
 
 
+const {
+    getResume,
 
+} = require('./controller')
 
-app.listen
+app.get('/getResume', getResume)
+
+app.listen(4200, () => console.log('App running on port 4200'))
