@@ -37,7 +37,7 @@ body{
 
 input:focus,textarea:focus {
     outline: none;
-    border:2px solid rgb(68, 218, 255);
+    border:2px solid rgb(22, 168, 110);
 
 }
 
@@ -52,7 +52,7 @@ input:focus,textarea:focus {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    background-color: rgb(68, 218, 255);
+    background-color: rgb(22, 168, 85);
 }
 
 .main h2{
@@ -66,17 +66,9 @@ input:focus,textarea:focus {
 }
 button{
     width: 150px;
-    background-color: rgb(68, 218, 255);
+    background-color: rgb(22, 168, 85);
     color: white;
     font-size: 18px;
     border: none;
     border-radius: 5px;
 }
-Footer
-
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Doc
