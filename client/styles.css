@@ -1,0 +1,82 @@
+#RG{
+    flex: 1;
+    text-align: center;
+}
+#FD{
+    flex: 2;
+    text-align: right;
+}
+#icon{
+    width: 3%;
+    flex-wrap: wrap;
+    cursor: pointer;
+   align-content: right;
+}
+
+#author{
+    text-align: center;
+    flex: 1;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-fields{
+    margin: 2px auto;
+    max-width: 500px;
+    
+}
+
+.input-fields input,textarea{
+    width: 100%;
+    height: 40px;
+    margin: 2px;
+}
+
+input:focus,textarea:focus {
+    outline: none;
+    border:2px solid rgb(68, 218, 255);
+
+}
+
+.hero{
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+    padding: 10px;
+    color:white
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(68, 218, 255);
+}
+
+.main h2{
+    border-bottom: 2px solid rgb(7, 7, 7);
+    width: max-content;
+    color:white
+}
+.btn{
+    text-align: center;
+    margin: 2px;
+}
+button{
+    width: 150px;
+    background-color: rgb(68, 218, 255);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+Footer
+
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Doc
