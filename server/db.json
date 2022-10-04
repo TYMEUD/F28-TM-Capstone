@@ -1,3 +1,15 @@
-{
-    
-}
+[
+    {
+    "id": 1,
+    "name":"",
+    "title":"",
+    "workexp":"",
+    "academic":"",
+    "objective":"",
+    "skills":"",
+    "projects":"",
+    "achievements":"",
+    "contact":""   
+    }
+
+]

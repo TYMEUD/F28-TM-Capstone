@@ -10,9 +10,12 @@ app.use(cors())
 
 const {
     getResume,
-
+    deleteResume,
+    addResume
 } = require('./controller')
 
 app.get('/getResume', getResume)
+app.delete('/deleteResume/:id', deleteResume)
+app.post('/addResume', addResume)
 
 app.listen(4200, () => console.log('App running on port 4200'))
