@@ -1,4 +1,4 @@
-const baseURL = 'https://tm-f28-capstone.herokuapp.com/'
+const baseURL = 'https://git.heroku.com/tm-f28-capstone.git'
 
 const showResume = document.querySelector('#resumes')
 const inputfields = document.querySelector('.input-fields')
