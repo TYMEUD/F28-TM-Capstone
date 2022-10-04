@@ -19,11 +19,11 @@ const {
 } = require('./controller')
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '..client/index.html'))
+    res.sendFile(path.join(__dirname, '../client/index.html'))
 })
-// app.get('/', (req, res) => {
-//     res.sendFile(path.join(__dirname, '..client/styles.css'))
-// })
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '..client/styles.css'))
+})
 
 app.get('/getResume', getResume)
 app.delete('/deleteResume/:id', deleteResume)
