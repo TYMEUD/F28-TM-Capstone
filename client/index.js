@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:5000'
+const baseURL = 'https://tm-f28-capstone.herokuapp.com/'
 
 const showResume = document.querySelector('#resumes')
 const inputfields = document.querySelector('.input-fields')
