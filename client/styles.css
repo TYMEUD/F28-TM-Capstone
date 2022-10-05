@@ -95,7 +95,3 @@ button{
     border-radius: 5px;
     flex-wrap: wrap;
 }
-#addResume{
-    display: flex;
-    align-content: center;
-}
