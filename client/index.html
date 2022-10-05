@@ -6,21 +6,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Resume Generator</title>
 </head>
-<body>
+<body id="B1">
     <div id="FD">
         <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_272101.png&f=1&nofb=1&ipt=111696f8a77dbcae43149a7fdff4efab8064c48303003dab88b2d0189ece6e54&ipo=images" id="icon">
     </div>
     <div>
+        <h1 id="header" style="text-align: center;">Resume Generator</h1>
+        <h2 id="author">By Ty Menlove</h2>
         <form class="input-fields">
-            <h1 style="text-align: center;">Resume Generator</h1>
-            <h2 id="author">By Ty Menlove</h2>
             <input type="text" id="name" placeholder="name" />
             <input type="text" id="title" placeholder="Title eg web developer" />
-            <textarea id="workexp" placeholder="work experience"></textarea>
+            <textarea id="workexp" placder="work experience"></textarea>
             <textarea id="academics" placeholder="academic details"></textarea>
             <input id="objective" placeholder="objective">
             <textarea id="skills" placeholder="skills" ></textarea>
-            <textarea id="projects" placeholder="projects" ></textarea>
+            <textarea id="projects" placehehololder="projects" ></textarea>
             <textarea id="achievements" placeholder="achievements" ></textarea>
             <textarea id="contact" placeholder="contact" ></textarea>
         </form>
@@ -35,6 +35,20 @@
    <div class="btn">
         <button id="addResume">Add</button>
    </div>
+   <script>
+
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function (){
+                document.body.classList.toggle("dark-theme")
+                if(document.body.classList.contains("dark-theme")){
+                    icon.src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pinclipart.com%2Fpicdir%2Fbig%2F58-583041_white-sun-transparent-clipart.png&f=1&nofb=1&ipt=d1ae17aba95d3158e3cfb8a17f0ed6bf9bd20bd71507693db07e6f2cf8233059&ipo=images";
+                }else{
+                    icon.src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_272101.png&f=1&nofb=1&ipt=111696f8a77dbcae43149a7fdff4efab8064c48303003dab88b2d0189ece6e54&ipo=images";
+                }
+        }
+
+   </script>
    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
    <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
     <script src="/js"></script>
